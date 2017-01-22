@@ -1,0 +1,22 @@
+{
+  "name": "ts-mocks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Søren Louv-Jansen <sorenlouv@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "http-mockserver": "1.1.10"
+  },
+  "devDependencies": {
+    "eslint": "3.14.0",
+    "eslint-config-standard": "6.2.1",
+    "eslint-config-tradeshift": "2.1.0",
+    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-standard": "2.0.1"
+  }
+}

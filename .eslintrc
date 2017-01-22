@@ -1,0 +1,13 @@
+{
+    "extends": "tradeshift",
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "rules": {
+        "no-var": 2,
+        "no-template-curly-in-string": 2,
+        "prefer-const": 2,
+        "prefer-arrow-callback": 2
+    }
+}
