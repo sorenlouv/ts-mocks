@@ -10,13 +10,13 @@
   "author": "Søren Louv-Jansen <sorenlouv@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "http-mockserver": "1.1.10"
+    "http-mockserver": "2.2.0"
   },
   "devDependencies": {
-    "eslint": "3.14.0",
+    "eslint": "3.16.1",
     "eslint-config-standard": "6.2.1",
     "eslint-config-tradeshift": "2.1.0",
-    "eslint-plugin-promise": "3.4.0",
+    "eslint-plugin-promise": "3.4.2",
     "eslint-plugin-standard": "2.0.1"
   }
 }

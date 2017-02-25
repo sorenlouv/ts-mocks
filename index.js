@@ -5,5 +5,5 @@ const enabledComponents = service.getEnabledComponents();
 const mockFilenames = service.getFilenames(enabledComponents);
 
 mockServer
-    .addMocks(mockFilenames)
+    .addMocksByPath(mockFilenames)
     .start();
