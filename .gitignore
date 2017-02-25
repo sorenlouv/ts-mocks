@@ -1,3 +1,4 @@
 /node_modules
 /componentsConfig.json
 /.vscode
+/npm-debug.log
