@@ -1,0 +1,55 @@
+{
+	"app-backend": {
+		"path": "/tradeshift-app-service/rest",
+		"port": 8868,
+		"disabled": true
+	},
+	"apps-server": {
+		"path": "",
+		"port": 8322
+	},
+	"backend-service": {
+		"path": "/tradeshift-backend/rest",
+		"port": 8888
+	},
+	"collaboration-backend": {
+		"path": "/rest",
+		"port": 8489
+	},
+	"collaboration-event-source": {
+		"path": "",
+		"port": 8882
+	},
+	"generator": {
+		"path": "/generator",
+		"port": 1337
+	},
+	"message-core": {
+		"path": "",
+		"port": 8865
+	},
+	"payments-external": {
+		"path": "/api/external",
+		"port": 9102
+	},
+	"payments-internal": {
+		"path": "/api",
+		"port": 9101
+	},
+	"proxy-external": {
+		"path": "/tradeshift-proxy",
+		"port": 8889
+	},
+	"proxy-internal": {
+		"path": "/tradeshift-proxy",
+		"port": 8899
+	},
+	"task-service": {
+		"path": "/tradeshift-tasks/rest",
+		"port": 8055
+	},
+	"workflow-service": {
+		"path": "/tradeshift-workflow/rest",
+		"port": 8898
+	}
+}

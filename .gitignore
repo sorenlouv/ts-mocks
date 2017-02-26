@@ -2,3 +2,4 @@
 /componentsConfig.json
 /.vscode
 /npm-debug.log
+/config/dev.json

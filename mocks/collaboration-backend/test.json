@@ -1,5 +1,4 @@
 {
-	"port": 8489,
 	"method": "GET",
 	"uri": "/conversations",
 	"response": {

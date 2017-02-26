@@ -10,7 +10,9 @@
   "author": "Søren Louv-Jansen <sorenlouv@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "http-mockserver": "2.2.0"
+    "config": "1.25.1",
+    "http-mockserver": "2.2.0",
+    "lodash": "4.17.4"
   },
   "devDependencies": {
     "eslint": "3.16.1",

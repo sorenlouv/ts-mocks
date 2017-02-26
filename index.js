@@ -1,9 +1,9 @@
 const {mockServer} = require('http-mockserver');
 const service = require('./service');
+mockServer.enableDebug();
 
-const enabledComponents = service.getEnabledComponents();
-const mockFilenames = service.getFilenames(enabledComponents);
+service.getEnabledMocks()
+	.then(mocks => mockServer.addMocks(...mocks))
+	.then(() => mockServer.start())
+	.done();
 
-mockServer
-    .addMocksByPath(mockFilenames)
-    .start();
