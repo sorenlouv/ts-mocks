@@ -13,7 +13,7 @@
 		"port": 8888
 	},
 	"collaboration-backend": {
-		"path": "/rest",
+		"path": "/rest/external/collaboration",
 		"port": 8489
 	},
 	"collaboration-event-source": {
